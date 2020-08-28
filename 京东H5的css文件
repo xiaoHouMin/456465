@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    /* background: rgb(173, 173, 173); */
+    font-size: 14px;
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    color: #666;
+    height: 2000px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.app {
+    height: 45px;
+}
+
+.app ul {
+    height: 45px;
+}
+
+.app ul li {
+    float: left;
+    height: 45px;
+    background-color: #333;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+}
+
+.app ul li:nth-child(1) {
+    width: 8%;
+}
+
+.app ul li:nth-child(1) img {
+    width: 10px;
+}
+
+.app ul li:nth-child(2) {
+    width: 10%;
+}
+
+.app ul li:nth-child(2) img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.app ul li:nth-child(3) {
+    width: 57%;
+}
+
+.app ul li:nth-child(4) {
+    width: 25%;
+    background-color: rgb(236, 26, 26);
+}
+
+.search-wrap {
+    position: fixed;
+    height: 44px;
+    /* background-color: rgb(88, 48, 48); */
+    overflow: hidden;
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(0, 0, 0); */
+    width: 40px;
+    height: 44px;
+}
+
+.search-btn::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 18px;
+    background: url(../images/s-btn.png);
+    background-size: 20px 18px;
+    margin: 14px 0 0 13px;
+}
+
+.search-login {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-color: rgb(0, 0, 0); */
+    width: 40px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    color: white;
+}
+
+.search {
+    position: relative;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 7px 50px;
+    border-radius: 15px;
+}
+
+.jd-icon {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    background: url(../images/jd.png) no-repeat;
+    background-size: 20px 15px;
+}
+
+.jd-icon::after {
+    position: absolute;
+    right: -8px;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+}
+
+.sou {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    width: 18px;
+    height: 15px;
+    background-color: rgb(160, 2, 29);
+    background: url(../images/jd-sprites.png) no-repeat -81px 0;
+    background-size: 200px auto;
+}
+
+.slider img {
+    width: 100%;
+}
+
+/* 蔡康永模块 */
+
+.brand {
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.brand div {
+    float: left;
+    width: 33.33%;
+}
+
+.brand div img {
+    width: 100%;
+}
+
+/* 导航模块 */
+nav {
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    width: 20%;
+    /* background-color: rgb(160, 72, 72); */
+    text-align: center;
+}
+
+nav a img {
+    width: 40px;
+    margin: 10px 0;
+}
+
+nav a span {
+    display: block;
+}
+
+.news {
+    margin-top: 10px;
+}
+
+.news a {
+    float: left;
+}
+
+.news a img {
+    width: 100%;
+}
+
+.news a:nth-child(1) {
+    width: 50%;
+}
+
+.news a:nth-child(n+2) {
+    width: 25%;
+}
